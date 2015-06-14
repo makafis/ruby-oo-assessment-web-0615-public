@@ -1,5 +1,5 @@
 require_relative "../lib/symbol_roundup.rb" # Code your solution here.
-
+require 'pry'
 describe Array do 
   describe "#symbol_roundup" do
 

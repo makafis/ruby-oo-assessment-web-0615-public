@@ -1,5 +1,5 @@
 require_relative "../lib/array_list.rb" # Code your solution in this file
-
+require 'pry'
 describe Array do 
   describe "#list" do
     let(:array) { ["eins", "zwei", "drei"] }

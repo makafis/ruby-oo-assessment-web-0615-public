@@ -1,5 +1,5 @@
 require_relative '../lib/animal_sorter.rb' # Code your solution in this file
-
+require 'pry'
 describe "AnimalSorter" do
   describe '#to_a' do
     let(:animals) { ["marlin", "aardvark", "octopus", "cat", "fish", "elephant"] }

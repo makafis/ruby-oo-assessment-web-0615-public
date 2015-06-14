@@ -3,6 +3,23 @@
 
 class String
   def count_sentences
-    # code goes here
+      counter = 0
+    @punctuation = [".","?","!"]
+    sentences = self.split(" ")
+    
+    @punctuation.each do |punc|
+      
+      sentences.each do |word|
+        if word.include?(punc)
+          
+          counter+=1
+        end
+      end
+      
+        
+    end
+    
+    counter
   end
+
 end
